@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+.ant-table-pagination-right {
+  justify-content: center !important;
+}
+.ant-modal-content {
+  padding: 0px !important;
+}
+.ant-drawer-body {
+  padding: 0px !important;
+}
+.ant-menu-item:hover {
+  background: #303c57 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-item:focus {
+  background: #303c57 !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-item:active {
+  background: #303c57 !important;
+  color: #ffffff !important;
+}
+.ant-menu-item-selected {
+  background: #303c57 !important;
+  color: #ffffff !important;
+}
+.checkbox-round span{
+  border-radius: 15px !important;
+}
